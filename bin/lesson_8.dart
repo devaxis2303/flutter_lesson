@@ -13,7 +13,7 @@ const i=34;
 bool t =true;
 List list = [24,8,6,33,9];
 
-Set set = {a,54}; 
+// Set set = {a,54}; 
 
 print (list.first);
 print(list.last);
@@ -47,11 +47,11 @@ print(kopaytirish(8, 8));
 }
 
 void ask (name){
-  print('Salom ismingiz $name\mi?');
+  print('Salom ismingiz $name mi?');
   
 }
 String add (name){
-  return("salom ismingiz $name\mi?");
+  return("salom ismingiz $name mi?");
 }
 int kopaytirish(int a,int b){
   if (a>b) {
@@ -59,6 +59,6 @@ int kopaytirish(int a,int b){
   }else{
     return b;
   }
-  return(a*b);
+  // return(a*b);
   
 }
